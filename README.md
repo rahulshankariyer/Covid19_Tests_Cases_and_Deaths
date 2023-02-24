@@ -49,7 +49,7 @@ Several records in the data had fields with null values which needed to be made 
 3. Using the data extracted in Step 2, 3 visualizations were created in Tableau - 
     
     <b> a. Testing % - USA vs Rest of the World </b>
-    ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Testing%20%25%20-%20USA%20vs%20World.png)
+    ![alt text](https://raw.githubusercontent.com/rahulshankariyer/Covid19_Tests_Cases_and_Deaths/main/Testing%20%25%20-%20USA%20vs%20World.png)
     
     <b> b. Covid Case % - USA vs Rest of the World </b>
     ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Covid%20Case%20%25%20-%20USA%20vs%20World.png)

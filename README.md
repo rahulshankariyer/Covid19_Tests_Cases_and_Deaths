@@ -1,31 +1,20 @@
 # Covid-19 Testing, Infections, Death Rates
 
-## Table of Contents
-
-1. Project Objective
-2. Data Used
-3. Tools Used
-4. Data Transformations
-5. Analysis
-6. Insights
-7. Conclusions
-8. Accuracy of the Insights & Conclusions
-
-### 1. Project Objective
+## Project Objective
 
 In this project, an analysis was made on how USA has done in terms of Covid Testing and Controlling Covid Cases & Deaths compared to the Rest of the World. 
 
-### 2. Data Used
+## Data Used
 
 For this purpose, a Covid-19 dataset from the website <a href = "https://ourworldindata.org/covid-deaths"> Our World in Data </a> was used. This dataset contained various data on Covid Cases, Deaths, Testing and Vaccinations. The period chosen was January 1st, 2020 to November 21st, 2022. 
 
-### 3. Tools Used
+## Tools Used
 
 1. Excel
 2. Microsoft SQL Server Management Studio
 3. Tableau
 
-### 4. Data Transformations
+## Data Transformations
 
 The data used for the purpose of this analysis were:
 
@@ -46,7 +35,7 @@ Several records in the data had fields with null values which needed to be made 
 9. positive_rate
 10. tests_per_case
 
-### 5. Analysis
+## Analysis
 
 1. Using SQL Server Management Studio, the following were extracted:
 
@@ -71,7 +60,7 @@ Several records in the data had fields with null values which needed to be made 
     <b> d. Covid Death % - USA vs Rest of the World </b>
     ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Covid%20Death%20%25%20-%20USA%20vs%20World.png)
     
-### 6. Insights
+## Insights
 
 From the above data, the following insights were gathered:
 
@@ -83,12 +72,12 @@ From the above data, the following insights were gathered:
 6. USA ranks #24 in the World in Death % among Covid Positive Cases (from high to low), with 1.02% of them dying of the virus. The Rest of the World comes in with 1.03% in comparison.
 7. Since the virus began to spread, the percentage of Covid Deaths in the USA has overall increased and decreased at a similar rate with that of the Rest of the world, sometimes going above and sometimes going below.
 
-### 7. Conclusions
+## Conclusions
 
 1. USA was more efficient than the Rest of the World in Testing & detecting Covid Positive Cases.
 2. USA couldn't control the spread of the virus very well, but they were able to control the death rate better than most other countries in the world.
 
-### 8. Accuracy of the Insights & Conclusions
+## Accuracy of the Insights & Conclusions
 
 The accuracy is moderate for the following reasons:
 

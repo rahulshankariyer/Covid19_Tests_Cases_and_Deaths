@@ -52,13 +52,13 @@ Several records in the data had fields with null values which needed to be made 
     ![alt text](https://raw.githubusercontent.com/rahulshankariyer/Covid19_Tests_Cases_and_Deaths/main/Testing%20%25%20-%20USA%20vs%20World.png)
     
     <b> b. Covid Case % - USA vs Rest of the World </b>
-    ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Covid%20Case%20%25%20-%20USA%20vs%20World.png)
+    ![alt text](https://raw.githubusercontent.com/rahulshankariyer/Covid19_Tests_Cases_and_Deaths/main/Covid%20Case%20%25%20-%20USA%20vs%20World.png)
     
     <b> c. Tests Per Case - USA vs Rest of the World </b>
-    ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Tests%20Per%20Case%20-%20USA%20vs%20Rest%20of%20the%20World.png)
+    ![alt text](https://raw.githubusercontent.com/rahulshankariyer/Covid19_Tests_Cases_and_Deaths/main/Tests%20Per%20Case%20-%20USA%20vs%20Rest%20of%20the%20World.png)
     
     <b> d. Covid Death % - USA vs Rest of the World </b>
-    ![alt text](./Covid-19%20Testing%2C%20Infection%20%26%20Death%20Rates/Covid%20Death%20%25%20-%20USA%20vs%20World.png)
+    ![alt text](https://raw.githubusercontent.com/rahulshankariyer/Covid19_Tests_Cases_and_Deaths/main/Covid%20Death%20%25%20-%20USA%20vs%20World.png)
     
 ## Insights
 

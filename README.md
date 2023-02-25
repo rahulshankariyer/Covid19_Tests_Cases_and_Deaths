@@ -22,7 +22,7 @@ The data used for the purpose of this analysis were:
 2. Postivity Rates
 3. Death Rates
 
-Several records in the data had fields with null values which needed to be made into '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0':
+As part of the Data Cleaning process, several records in the data had fields with null values which needed to be changed to '0' for performing various mathematical calculations on them. Most of these null values were in January and February 2020. The below fields were changed from null to '0' using SQL:
 
 1. total_cases
 2. new_cases
@@ -35,9 +35,51 @@ Several records in the data had fields with null values which needed to be made 
 9. positive_rate
 10. tests_per_case
 
+The below SQL queries were performed for changing the above fields:
+
+    update ProjectPortfolio..[Covid Deaths]
+    set total_cases = '0'
+    where total_cases is null;
+
+    update ProjectPortfolio..[Covid Deaths]
+    set new_cases = '0'
+    where new_cases is null;
+
+    update ProjectPortfolio..[Covid Deaths]
+    set total_deaths = '0'
+    where total_deaths is null;
+
+    update ProjectPortfolio..[Covid Deaths]
+    set new_deaths = '0'
+    where new_deaths is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set total_tests = '0'
+    where total_tests is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set new_tests = '0'
+    where new_tests is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set total_tests_per_thousand = '0'
+    where total_tests_per_thousand is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set new_tests_per_thousand = '0'
+    where new_tests_per_thousand is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set positive_rate = '0'
+    where positive_rate is null;
+
+    update ProjectPortfolio..[Covid Vaccinations]
+    set tests_per_case = '0'
+    where tests_per_case is null;
+
 ## Analysis
 
-1. Using SQL Server Management Studio, the following were extracted:
+Using SQL Server Management Studio, the following were extracted:
 
     (i) Testing % - Percentage of the Population Tested for Covid
     (ii) Covid Case % - Percentage of the Population to have Contracted Covid
